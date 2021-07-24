@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div{
+    width: 107px;
+    height: 128px;
+    float: left;
+}
+#one{
+    background-color: rgb(77, 86, 89);
+    margin-left: 486px;
+    margin-right: 9px;
+
+}
+#two{
+    background-color: rgb(91, 109, 110);
+    margin-right: 9px;
+}
+#three{
+    background-color:rgba(22, 199, 122);
+    margin-right: 9px;
+    
+}
+#four{
+    background-color:rgb(35, 232, 91);
+    margin-right: 9px;
+}
+#five{
+    background-color:white;
+}

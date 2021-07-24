@@ -1,0 +1,39 @@
+h1{
+    color: blue;
+}
+#wrapper{
+    width: 100%;
+    margin: 10%;
+    
+}
+#div1{
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    margin: 0%;
+    float: left;
+}
+#div2{
+    height: 50%;
+    width: 20%;
+    margin: 0%;
+    float: left;
+  
+}
+#button{
+    background-color: blue;
+    color: white;
+}
+#button2{
+    background-color: green;
+    color: white;
+}
+body{
+    background-color: whitesmoke;
+}
+fieldset{
+    border-color: white;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+}

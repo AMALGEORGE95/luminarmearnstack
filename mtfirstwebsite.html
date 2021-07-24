@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST WEBSITE</title>
+    <link rel="stylesheet" href="MYFIRSTWEBSITE.CSS">
+</head>
+<body>
+    <nav>
+        <ul class="topnav">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#NEWS">NEWS</a></li>
+            <li><a href="#home">CONTACT</a></li>
+            <li><a href="#home">ABOUT</a></li>
+            <li class="topnav-right"><a href="#home">SIGNUP</a></li>
+            <li class="topnav-right"><a href="#home">SIGNIN</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownmenu()">☰</a></li>
+        </ul>
+    </nav>
+    <script>
+        function dropdownmenu(){
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav")
+            {
+            x.className += "responsive";
+            }
+            else
+            {
+            x.className="topnav"
+            }
+
+        }
+    </script>
+</body>
+</html> 

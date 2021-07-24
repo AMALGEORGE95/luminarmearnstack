@@ -1,0 +1,32 @@
+.row{
+    width: 100%;
+    height: 400px;
+    background-color: lightcyan;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around; 
+    
+}
+.col{
+    width: 150px;
+    height: 200px;
+}
+
+.col-1{
+    background-color: darkmagenta;
+    flex:1;
+
+}
+.col-2{
+    background-color: darkred;
+    flex: 1;
+}
+.col-3
+{
+    background-color: darkslateblue;
+    flex:1;
+}
+.col-4{
+    background-color: darkslategrey;
+    flex: 2;
+}

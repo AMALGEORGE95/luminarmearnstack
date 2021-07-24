@@ -1,0 +1,12 @@
+body{
+    background-image:url('E:\images\milky-way-2695569__480.jpeg')
+}
+div{
+    width: 23%;
+    height: 60%;
+    float: left;
+    border-width: 2px;
+    border-color: red;
+
+}
+

@@ -1,0 +1,43 @@
+.row{
+width: 500px;
+height: 125px;
+background-color: skyblue;
+border: 2px solid red;
+position: relative;
+left: 25%;
+margin-top: 5px;
+}
+.col{
+    width: 100px;
+    height: 125px;
+    float: left;
+}
+.col-1{
+    background-color: slateblue;
+}
+.col-2{
+    background-color: slategrey;
+    left: 110px;
+}
+.col-3
+{
+    background-color: tan;
+    left: 215px;
+}
+.col-4{
+    background-color:tomato;
+    left: 320px;
+}
+.col-5{
+    background-color: brown;
+    left: 425;
+}
+.side{
+    background-color: deeppink;
+    width: 300px;
+    height: 300px;
+    border: 10px solid red;
+    position:sticky;
+    left: 1000px;
+    top: 500px;
+}

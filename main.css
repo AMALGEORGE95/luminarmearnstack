@@ -1,0 +1,21 @@
+.cont
+{
+    background: linear-gradient(	 #668cff,#cc6600);
+    text-align: center;
+    box-shadow: 3px 3px violet;
+}
+h1{
+    color:red;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+    font-style:'Big Shoulders Stencil Display';
+}
+h2
+{
+    color: ivory;
+    text-transform: uppercase;
+    font-style: 'Jomhuria';
+}
+body{
+    background-image: url(111.jpg);
+}
